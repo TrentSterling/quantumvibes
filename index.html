@@ -4,8 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QuantumVibes - Interactive Quantum Simulations</title>
-    <meta name="description" content="Explore the mysteries of quantum mechanics with interactive Double-Slit and Path Integral simulations. Witness wave-particle duality and Feynman's path integrals in action. Vibecoded by Trent Sterling.">
+    <title>QuantumVibes - Interactive Quantum Simulations by Trent Sterling</title>
+    <meta name="description" content="Explore the mysteries of quantum mechanics with QuantumVibes, interactive Double-Slit and Path Integral simulations. Witness wave-particle duality and Feynman's path integrals. Vibecoded by Trent Sterling (Tront).">
+    <meta name="keywords" content="QuantumVibes, quantum physics, double-slit experiment, path integral, Feynman diagrams, wave-particle duality, quantum simulation, interactive physics, physics visualization, Trent Sterling, Tront, HTML5 canvas, JavaScript simulation, web worker">
+    <link rel="canonical" href="https://tront.xyz/quantumvibes/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tront.xyz/quantumvibes/">
+    <meta property="og:title" content="QuantumVibes - Interactive Quantum Simulations by Trent Sterling">
+    <meta property="og:description" content="Explore wave-particle duality with interactive Double-Slit and Feynman's Path Integral simulations. Vibecoded by Trent Sterling (Tront).">
+    <meta property="og:image" content="https://blog.tront.xyz/assets/img/tront.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://tront.xyz/quantumvibes/">
+    <meta name="twitter:title" content="QuantumVibes - Interactive Quantum Simulations by Trent Sterling">
+    <meta name="twitter:description" content="Explore wave-particle duality with interactive Double-Slit and Feynman's Path Integral simulations. Vibecoded by Trent Sterling (Tront).">
+    <meta name="twitter:image" content="https://blog.tront.xyz/assets/img/tront.png">
+
+    <link rel="icon" href="https://blog.tront.xyz/assets/img/tront.png" type="image/png">
     <style>
         /* CSS unchanged */
         body { background-color: #1e1e1e; color: #e0e0e0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; display: flex; flex-direction: column; align-items: center; padding-top: clamp(10px, 1.5vh, 20px); padding-bottom: clamp(10px, 1.5vh, 20px); font-size: clamp(10px, 0.9vw + 0.1vh, 16px); }
@@ -39,7 +60,8 @@
         .description-box ul { margin-top: 0.3em; padding-left: 1.5em;}
         .description-box li { margin-bottom: 0.3em; }
         .description-box strong { color: #e0e0e0; }
-        .footer-attribution { text-align: center; margin-top: clamp(20px, 3vh, 40px); font-size: clamp(0.8em, 1vw, 1em); color: #888; }
+        .footer-attribution { text-align: center; margin-top: clamp(20px, 3vh, 40px); padding-bottom: clamp(10px, 1.5vh, 20px); font-size: clamp(0.8em, 1vw, 1em); color: #888; }
+        .footer-attribution p { margin-bottom: 0.25em; line-height: 1.4;}
         .footer-attribution a { color: #00aeff; text-decoration: none; }
         .footer-attribution a:hover { text-decoration: underline; }
     </style>
@@ -129,8 +151,9 @@
          </div>
     </div>
     <div class="footer-attribution">
-        <p>QuantumVibes - Vibecoded by Trent Sterling, May 7th 2025.<br>
-        Explore at <a href="https://tront.xyz/" target="_blank" rel="noopener noreferrer">tront.xyz</a></p>
+        <p>QuantumVibes. Vibecoded by Trent Sterling (Tront), May 7th, 2025.</p>
+        <p>Explore more from Tront <a href="https://tront.xyz/" target="_blank" rel="noopener noreferrer">tront.xyz/</a></p>
+        <p>&copy; <span id="current-year-qv">2025</span> Trent Sterling. All rights reserved.</p>
     </div>
 
     <script id="particleWorkerSource" type="javascript/worker">
@@ -150,7 +173,7 @@
     </script>
 
     <script>
-        // Main JavaScript unchanged from previous "PI Fix" version
+        // Main JavaScript unchanged
         let currentMode = 'double-slit';
         let canvas, ctx, animationFrameId;
         let lastTimestamp = 0; 
@@ -191,6 +214,12 @@
              setupControls(); updateAllControlDisplays();
              resizeCanvasAndSim(); window.addEventListener('resize', debounce(resizeCanvasAndSim, 150));
              setupCanvasMouseEvents(); animationLoop(0);
+
+             // Initialize current year in footer
+            const currentYearQvEl = document.getElementById('current-year-qv');
+            if (currentYearQvEl) {
+                currentYearQvEl.textContent = new Date().getFullYear();
+            }
          });
         
         function getSimGeometry() { return { emitterX: dsState.emitterX, emitterY: dsState.emitterY, barrierX: dsState.barrierX, barrierThickness: dsState.barrierThickness, detectorX: dsState.detectorX, detectorStartY: dsState.detectorStartY, detectorHeight: dsState.detectorHeight, canvasWidth: canvas.width, canvasHeight: canvas.height }; }
