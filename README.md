@@ -2,6 +2,9 @@
 
 **[>>> Play QuantumVibes In Your Browser! <<<](https://tront.xyz/quantumvibes/)**
 
+For the full, gloriously styled backstory and deeper dive into this project, check out the [**QuantumVibes Story Page (readme.html)**](https://trentsterling.github.io/quantumvibes/readme.html). 
+*(Note: Assumes GitHub Pages deployment path. If viewing this README directly in the repo, you can also use a relative link: [QuantumVibes Story Page (readme.html)](readme.html))*
+
 ---
 
 Ever had quantum mechanics just scramble your brain in the best way? For me, a [**Veritasium video on Path Integrals**](https://www.youtube.com/watch?v=qJZ1Ez28C-A) did just that, making the idea of a particle taking *all paths simultaneously* finally click.
@@ -35,6 +38,12 @@ QuantumVibes lets you interactively explore two core concepts:
 ## The "Aha!" Moment
 
 This project was about trying to capture that intuitive *click* when you finally *see* a complex idea like "light explores all paths." It's a fun, slightly unhinged experiment. Mobile might be janky, accuracy is "good enough for jazz," but hopefully, it sparks some quantum curiosity.
+
+## Dive Deeper
+
+*   **[Play QuantumVibes Now!](https://tront.xyz/quantumvibes/)**
+*   **[Read the Full Story Behind QuantumVibes (Styled Page)](https://trentsterling.github.io/quantumvibes/readme.html)**
+*   **Explore more from Tront: [tront.xyz](https://tront.xyz/)**
 
 ## Join the Discussion
 
