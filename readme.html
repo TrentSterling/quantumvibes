@@ -40,65 +40,60 @@
         .container {
             max-width: 750px;
             margin: 15px auto;
-            padding: 20px; /* OG Drunk had 15px, slightly more for readability */
-            background-color: rgba(10, 20, 10, 0.7); /* OG Drunk green-ish transparent */
-            border: 2px dashed #ff00ff; /* OG Drunk magenta dashed */
-            box-shadow: 0 0 20px rgba(255, 0, 255, 0.6), inset 0 0 12px rgba(0, 255, 0, 0.4); /* OG Drunk shadows */
-            transform: rotate(-0.4deg); /* OG Drunk tilt */
+            padding: 20px; 
+            background-color: rgba(10, 20, 10, 0.7); 
+            border: 2px dashed #ff00ff; 
+            box-shadow: 0 0 20px rgba(255, 0, 255, 0.6), inset 0 0 12px rgba(0, 255, 0, 0.4); 
+            transform: rotate(-0.4deg); 
         }
 
         h1, h2, h3 {
-            font-family: 'Special Elite', cursive; /* OG Drunk font */
-            color: #ffff00; /* OG Drunk yellow */
-            /* --- NO RAINBOW HEADERS, back to simpler shadow --- */
-            text-shadow: 1px 1px #ff00ff, -1px -1px #00ffff; /* Simpler neon, less intense */
-            margin-bottom: 12px; /* OG Drunk spacing */
-            padding-bottom: 6px; /* OG Drunk spacing */
-            transform: skewX(-4deg); /* OG Drunk skew */
+            font-family: 'Special Elite', cursive; 
+            color: #ffff00; 
+            text-shadow: 1px 1px #ff00ff, -1px -1px #00ffff; 
+            margin-bottom: 12px; 
+            padding-bottom: 6px; 
+            transform: skewX(-4deg); 
         }
         h1 {
             font-size: 2.8em; 
             text-align: center;
-            border-bottom: 3px dotted #00ffff; /* OG Drunk cyan border */
+            border-bottom: 3px dotted #00ffff; 
         }
         h2 {
             font-size: 2em; 
             margin-top: 30px;
-            border-bottom: 2px solid #ffff00; /* OG Drunk yellow border */
+            border-bottom: 2px solid #ffff00; 
         }
         h3 {
             font-size: 1.6em; 
             margin-top: 25px;
-            color: #ff9900; /* OG Drunk orange */
-            /* Removed intense text-shadow for h3 for better readability with Special Elite */
-            text-shadow: 1px 1px #550000; /* Very subtle dark shadow */
+            color: #ff9900; 
+            text-shadow: 1px 1px #550000; 
         }
         p, li {
             font-size: 1.2em; 
             margin-bottom: 12px;
-            color: #00dd00; /* Brighter green for readability */
-            text-shadow: 1px 1px 0px #002500; /* Subtle depth */
+            color: #00dd00; 
+            text-shadow: 1px 1px 0px #002500; 
         }
-        strong { color: #ffff00; text-shadow: 1px 1px #000; } /* OG Drunk yellow, added shadow */
-        /* --- EM TAGS: NO WAVY UNDERLINE, standard italic --- */
+        strong { color: #ffff00; text-shadow: 1px 1px #000; } 
         em { color: #ff9900; font-style: italic; text-decoration: none; font-weight: normal; }
 
-        /* --- LINKS: Back to OG Drunk style, no Monoton, no rainbow text animation --- */
         a {
-            color: #ff00ff; /* OG Drunk magenta */
-            text-decoration: none; /* OG Drunk no underline */
-            font-weight: bold; /* OG Drunk bold */
-            transition: color 0.2s, background-color 0.2s, transform 0.1s; /* OG Drunk transitions */
-            padding: 1px 2px; /* Subtle padding for hover bg */
+            color: #ff00ff; 
+            text-decoration: none; 
+            font-weight: bold; 
+            transition: color 0.2s, background-color 0.2s, transform 0.1s; 
+            padding: 1px 2px; 
         }
         a:hover {
-            color: #ffff00; /* OG Drunk yellow hover */
-            background-color: rgba(255,0,255,0.15); /* OG Drunk subtle hover bg */
-            transform: scale(1.03) rotate(1deg); /* OG Drunk subtle hover transform */
-            /* display: inline-block; - removed, only needed if transform was more extreme */
+            color: #ffff00; 
+            background-color: rgba(255,0,255,0.15); 
+            transform: scale(1.03) rotate(1deg); 
         }
 
-        .post-meta { /* OG Drunk style */
+        .post-meta { 
             font-size: 0.95em; 
             color: #999900; 
             margin-bottom: 25px;
@@ -109,36 +104,35 @@
         }
         .post-meta span { display: block; margin-bottom: 3px; }
         
-        /* Text placeholders for images, as per previous request */
         .media-placeholder { 
             max-width: 90%; 
             display: block;
             margin: 25px auto;
-            border: 2px dashed #00ffff; /* OG Drunk image border style (groove changed to dashed) */
-            box-shadow: 3px 3px 10px #000; /* OG Drunk image shadow */
-            padding: 15px; /* More padding for text */
-            background-color: rgba(17,17,27,0.6); /* Darker, slightly blue for placeholders */
-            transform: rotate(0.3deg) translateX(3px); /* OG Drunk image tilt */
+            border: 2px dashed #00ffff; 
+            box-shadow: 3px 3px 10px #000; 
+            padding: 15px; 
+            background-color: rgba(17,17,27,0.6); 
+            transform: rotate(0.3deg) translateX(3px); 
             text-align: center;
-            color: #77cc77; /* Lighter green for placeholder text */
+            color: #77cc77; 
             font-size: 1em;
             min-height: 100px; 
             display: flex;
             align-items: center;
             justify-content: center;
-            font-family: 'Special Elite', cursive; /* Match headings for placeholder text */
+            font-family: 'Special Elite', cursive; 
         }
-        .caption-placeholder { /* OG Drunk caption style (font-style normal, specific color) */
+        .caption-placeholder { 
             font-style: normal;
-            color: #aaaa00; /* Murky yellow like .post-meta for captions */
+            color: #aaaa00; 
             text-align: center;
             font-size: 1em; 
-            margin-top: 5px; /* Closer to the placeholder box */
+            margin-top: 5px; 
             margin-bottom: 20px;
-            transform: skewY(-1deg); /* OG Drunk caption skew */
+            transform: skewY(-1deg); 
         }
 
-        blockquote { /* OG Drunk style */
+        blockquote { 
             border-left: 5px solid #ffff00; 
             margin: 25px 5px; 
             padding: 12px 18px;
@@ -154,48 +148,70 @@
             font-size: 1.1em;
             transform: rotate(0.2deg);
         }
-        hr { /* OG Drunk style */
+        hr { 
             border: 0;
             height: 3px;
             background-image: linear-gradient(to right, rgba(0, 255, 255, 0), rgba(0, 255, 255, 0.75), rgba(0, 255, 255, 0)); 
             margin: 50px 0;
             transform: skewY(1deg);
         }
-        .discord-link-box { /* OG Drunk style */
+        .discord-link-box { 
             text-align: center;
             padding: 20px;
             background-color: rgba(255,255,0,0.1); 
             border: 2px dashed #ffff00; 
             border-radius: 10px 0 10px 0; 
             margin-top: 35px;
+            margin-bottom: 20px; /* Added margin for separation before new footer */
             transform: perspective(500px) rotateX(5deg);
         }
-        .discord-link-box a { /* OG Drunk style */
+        .discord-link-box a { 
             font-size: 1.3em; 
             color: #ffff00;
         }
-        .discord-link-box a:hover { /* OG Drunk style */
+        .discord-link-box a:hover { 
             color: #000; background-color: #ffff00;
         }
         
-        .featured-image-placeholder { /* Style for the top placeholder, using OG image styles */
+        .featured-image-placeholder { 
             max-width: 90%; display: block; margin: 25px auto 30px auto;
-            border: 3px groove #ff00ff; /* Magenta groove border */
-            box-shadow: 0 0 25px rgba(255,0,255,0.5), inset 0 0 10px rgba(0,255,0,0.3); /* More intense shadow */
+            border: 3px groove #ff00ff; 
+            box-shadow: 0 0 25px rgba(255,0,255,0.5), inset 0 0 10px rgba(0,255,0,0.3); 
             padding: 20px; background-color: rgba(20,5,20,0.7);
-            transform: scale(1.01) rotate(-0.8deg); /* OG Drunk image tilt params */
+            transform: scale(1.01) rotate(-0.8deg); 
             text-align: center; color: #cc77cc; font-size: 1.1em; min-height: 150px;
             display: flex; align-items: center; justify-content: center;
             font-family: 'Special Elite', cursive;
         }
         
-        code { /* OG Drunk style */
+        code { 
             background-color: rgba(0, 255, 0, 0.1);
             color: #00ff00;
             padding: 2px 4px;
             border: 1px dotted #009900;
             font-size: 0.95em;
             word-wrap: break-word;
+        }
+
+        /* --- New Footer for Interlinking --- */
+        .page-footer-links {
+            text-align: center;
+            font-size: 1.1em; /* Matches your desired style */
+            padding-top: 20px; /* Space from HR */
+            padding-bottom: 20px; /* Space at bottom */
+        }
+        .page-footer-links p {
+            margin-bottom: 10px; /* Spacing between link lines */
+        }
+        .page-footer-links a strong { /* Make the main app link pop */
+            font-size: 1.1em; /* Slightly bigger */
+            color: #ffee00; /* Extra bright yellow */
+            text-shadow: 1px 1px #ff00ff; /* More prominent shadow */
+        }
+        .page-footer-links .copyright {
+            font-size: 0.9em;
+            color: #777777;
+            margin-top: 15px;
         }
 
     </style>
@@ -207,7 +223,6 @@
 
         <h1>QuantumVibes: That Time I Vibecoded Quantum Mechanics After a Video & Some Chat</h1>
 
-        <!-- Optional: If you want to add a date or other "meta" here, you can use .post-meta -->
         <div class="post-meta">
             <span>A Dev's Log: Stardate May 2025 (ish)</span>
             <span>Project: QuantumVibes - A Web Toy</span>
@@ -225,6 +240,7 @@
         <p>And when my brain breaks like that, I gotta build. So, QuantumVibes was born. A quick, dirty, browser-based interactive toy to poke at this weirdness. Popped into existence around early May after some chats and that video rattling around in my skull.</p>
         
         <h2>See the Quantum Weirdness for Yourself (Browser Required, Sanity Optional):</h2>
+        <!-- This main link to the app is already prominent -->
         <h3><a href="https://tront.xyz/quantumvibes/" target="_blank" rel="noopener noreferrer"><strong>Play QuantumVibes Here: tront.xyz/quantumvibes/</strong></a></h3>
 
         <hr>
@@ -283,6 +299,24 @@
 
         <p style="text-align: center; margin-top: 30px; font-family: 'Special Elite', cursive; color: #ffff00; text-shadow: 1px 1px #ff00ff;">Keep it weird, folks.</p>
 
-    </div>
+        <!-- === NEW/UPDATED FOOTER SECTION for Interlinking === -->
+        <hr style="margin-top: 40px; margin-bottom: 20px;">
+        <div class="page-footer-links">
+            <p>
+                <a href="https://tront.xyz/quantumvibes/" target="_blank" rel="noopener noreferrer"><strong>Play QuantumVibes! (The App)</strong></a>
+            </p>
+            <p>
+                <a href="https://github.com/TrentSterling/quantumvibes" target="_blank" rel="noopener noreferrer">View Project on GitHub (Code & README.md)</a>
+            </p>
+            <p>
+                Explore more from Tront: <a href="https://tront.xyz/" target="_blank" rel="noopener noreferrer">tront.xyz</a>
+            </p>
+            <p class="copyright">
+                © 2025 Trent Sterling. This page is for project background.
+            </p>
+        </div>
+        <!-- === END OF NEW/UPDATED FOOTER SECTION === -->
+
+    </div> <!-- This is the closing div for .container -->
 </body>
 </html>
