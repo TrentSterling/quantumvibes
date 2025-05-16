@@ -1,7 +1,6 @@
 # QuantumVibes: Interactive Quantum Mechanics Simulator
 
-[![QuantumVibes Live Demo](/assets/img/quantumvibes-promo-placeholder.jpg)](https://tront.xyz/quantumvibes/)
-*Click the image above or [here to play QuantumVibes in your browser!](https://tront.xyz/quantumvibes/)*
+**[>>> Click here to play QuantumVibes in your browser! <<<](https://tront.xyz/quantumvibes/)**
 
 ---
 
@@ -9,11 +8,7 @@ So, yeah. Quantum mechanics. It's one of those things that always tickles the ba
 
 For me, recently, it was a damn good [**Veritasium video about really trusting quantum mechanics**](https://www.youtube.com/watch?v=qJZ1Ez28C-A). I'd *known* about Feynman's path integrals – the idea that a particle takes *every possible path* simultaneously. But seeing it visualized so clearly... it wasn't just an abstract concept anymore. It was like, "Oh. OH. Light is literally exploring *all the goddamn paths*." That hit different.
 
-<p align="center">
-  <img src="https://i.imgur.com/rP80nPy.png" alt="Feynman's Infinite Paths concept from Veritasium video" width="600">
-  <br>
-  <em>This. This is the idea that broke my brain (in a good way).</em>
-</p>
+*(Image Placeholder: Feynman's Infinite Paths concept - will be added later)*
 
 And when my brain breaks like that, I gotta build. So, **QuantumVibes** was born – a quick, dirty, browser-based interactive toy to poke at this weirdness. Popped into existence around early May 2025 after some chats and that video rattling around in my skull.
 
@@ -33,12 +28,8 @@ The toy has two main modes:
 
 ### 1. The Double-Slit Experiment: Wave? Particle? Yes.
 
-<p align="center">
-  <!-- README Placeholder: Replace with an animated GIF of your Double-Slit sim -->
-  <a href="https://tront.xyz/quantumvibes/"><img src="https://i.imgur.com/5jQk84n.png" alt="Double-Slit Simulation Preview" width="700"></a>
-  <br>
-  <em>Visualizing the double-slit. That histogram is key! (Click to play)</em>
-</p>
+*(Animated GIF/Image Placeholder: Double-Slit Simulation - will be added later. Link to live demo for now.)*
+**[See the Double-Slit in Action (Live Demo)](https://tront.xyz/quantumvibes/)**
 
 The classic that gives everyone an existential crisis. My sim lets you:
 
@@ -52,12 +43,8 @@ The classic that gives everyone an existential crisis. My sim lets you:
 
 ### 2. Feynman's Path Integral Explorer: Taking ALL The Roads
 
-<p align="center">
-  <!-- README Placeholder: Replace with an animated GIF of your Path Integral sim -->
-  <a href="https://tront.xyz/quantumvibes/"><img src="https://i.imgur.com/D7g0UhN.jpeg" alt="Path Integral Simulation Preview" width="700"></a>
-  <br>
-  <em>Feynman's Path Integrals: Drag A and B, see the chaos resolve. (Click to play)</em>
-</p>
+*(Animated GIF/Image Placeholder: Path Integral Simulation - will be added later. Link to live demo for now.)*
+**[Explore Path Integrals (Live Demo)](https://tront.xyz/quantumvibes/)**
 
 This is where that Veritasium video really shines through in the project. You set start (A) and end (B) points. The sim then draws a zillion random paths between them. The ones closest to the "path of least action" (usually the straightest) are emphasized. It's wild to see the classical path emerge from the quantum fuzz.
 
@@ -77,9 +64,4 @@ Go on, [**play with QuantumVibes**](https://tront.xyz/quantumvibes/). Break it. 
 
 ## Join the Discussion
 
-And if you wanna talk shop – gamedev, AI coding adventures, why physics is so wonderfully bizarre, or just share what you're working on – hit up the Discord. It's a good crew, lots of smart folks doing cool shit with multiplayer, VR, AI, hardware, you name it.
-
-[**>>> Beam Aboard the TrontDev Discord Mothership <<<**](https://discord.gg/0hyoWZyM6y7kkFCN)
-
----
-*Keep it weird, folks.*
+And if you wanna talk shop – gamed
