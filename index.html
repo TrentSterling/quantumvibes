@@ -150,12 +150,17 @@
              <p>Illustrates Feynman's Path Integral formulation: a particle explores <strong>all possible paths simultaneously</strong> from A to B. Each path's "action" (simplified as length) determines its contribution. Paths near the <strong>least action path (bright green)</strong> contribute most. Drag A & B (paths update on release) or use sliders (paths update after you stop) to explore.</p>
          </div>
     </div>
+
     <div class="footer-attribution">
         <p>QuantumVibes. Vibecoded by Trent Sterling (Tront), May 7th, 2025.</p>
-        <p>Explore more from Tront <a href="https://tront.xyz/" target="_blank" rel="noopener noreferrer">tront.xyz/</a></p>
+        <p>
+            <a href="readme.html" target="_blank" rel="noopener noreferrer">About This Project (The Story)</a> | 
+            Explore more from Tront: <a href="https://tront.xyz/" target="_blank" rel="noopener noreferrer">tront.xyz</a> |
+            <a href="https://github.com/TrentSterling/quantumvibes" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </p>
         <p>&copy; <span id="current-year-qv">2025</span> Trent Sterling. All rights reserved.</p>
     </div>
-
+    
     <script id="particleWorkerSource" type="javascript/worker">
         // Worker script unchanged
         let workerDsState = { particles: [], histogram: new Array(100).fill(0), HISTOGRAM_BINS: 100, emitterX: 0, emitterY: 0, barrierX: 0, barrierThickness: 0, detectorX: 0, detectorStartY: 0, detectorHeight: 0, canvasWidth: 0, canvasHeight: 0, };
