@@ -23,13 +23,13 @@ QuantumVibes lets you interactively explore two core concepts:
     *   Witness wave-particle duality by toggling an "observer."
     *   See the iconic interference pattern emerge (or collapse!).
     *   Powered by Web Workers for a fast histogram build-up, even with 10,000+ simulated "particles" at high speed.
-    *   *(Image/GIF Placeholder: Double-Slit Simulation - to be added)*
+    [![Double-Slit Simulation](https://tront.xyz/img/quantum_refraction.png)](https://tront.xyz/quantumvibes/)
 
 2.  **Feynman's Path Integral Explorer:**
     *   Visualize a particle exploring numerous paths from point A to B.
     *   See how paths closer to the "path of least action" dominate.
     *   Drag start/end points and tweak path parameters.
-    *   *(Image/GIF Placeholder: Path Integral Simulation - to be added)*
+    [![Path Integral Explorer](https://tront.xyz/img/quantum_refraction.png)](https://tront.xyz/quantumvibes/)
 
 **Accuracy Disclaimer:** This is a *demonstration* to get the core ideas across, not a rigorously precise physics model. But the diffraction patterns look cool!
 
