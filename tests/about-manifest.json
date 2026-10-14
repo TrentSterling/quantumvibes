@@ -1,0 +1,26 @@
+{
+  "repository": "quantumvibes",
+  "baseline": "0743860c5be80925f18db6fc6a80afcecb01aaec",
+  "sharedRevision": "83dbfb4d8241501012c5ec22be49d79f28ccf6b7",
+  "javascriptSha256": "78e5f1cd0ab28f5361c445cecf6d539664d6ef5a39ceedb5228e2bfca5501bed",
+  "cssSha256": "70723556209736cc1d9e8dff2aa2fb5e68157d6ab0de2983406376baad85a8d0",
+  "bio": "<p>Quantum Vibes is an interactive quantum mechanics simulator. Run the double-slit experiment and watch the interference pattern build one particle at a time, then switch to Feynman path integrals and see the sum over histories that produces it.</p><p>One page, no install. By Tront (Trent Sterling).</p>",
+  "title": "Quantum Vibes by Tront",
+  "list": "<li><a href=\"https://tront.xyz/vibeprime/\">VibePrime</a>: Educational prime number search and sieve visualiser.</li><li><a href=\"https://tront.xyz/vibespace/\">VibeSpace</a>: Three.js particle space simulation.</li><li><a href=\"https://tront.xyz/vibestar/\">VibeStar</a>: A* pathfinding visualiser with web workers and a lot of knobs.</li>",
+  "hub": "<a href=\"https://tront.xyz/games/\">All games and tools</a> &middot; <a href=\"https://tront.xyz/blog/\">Devlog</a> &middot; <a href=\"https://tront.xyz/discord/\">Discord</a> &middot; <a href=\"https://github.com/TrentSterling/quantumvibes\">Source on GitHub</a> &middot; <a href=\"https://tront.xyz/\">tront.xyz</a>",
+  "jsonLd": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"SoftwareApplication\", \"name\": \"Quantum Vibes\", \"alternateName\": [\"Quantum Vibes by Tront\"], \"url\": \"https://tront.xyz/quantumvibes/\", \"description\": \"Interactive quantum mechanics: the double-slit experiment and Feynman path integrals in the browser.\", \"author\": {\"@type\": \"Person\", \"name\": \"Trent Sterling\", \"alternateName\": \"Tront\", \"url\": \"https://tront.xyz/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"Tront\", \"url\": \"https://tront.xyz/\"}, \"isAccessibleForFree\": true, \"offers\": {\"@type\": \"Offer\", \"price\": \"0\", \"priceCurrency\": \"USD\"}, \"applicationCategory\": \"DeveloperApplication\", \"operatingSystem\": \"Web browser\"}</script>",
+  "scripts": [
+    "dd90d93a5b1cffb8fc5b6108be6a0583a6efbbd12f7c52687a0377fef5a73c2f",
+    "0cae8b3b838598e524d5e81348fce8214277cc83eb57c1d898c5efd0754b6d9e",
+    "946d57c92b93eac09c7885daa3adfb26dfd7efd5a7d3581c3241b5ceb6128b9b",
+    "d6ea7d6055d7a12b4ae5e35e916ab88009121b76247a7115d72bfce99e6eb37c"
+  ],
+  "styles": [
+    "46f3dd54a4f932bd269658b3ecbb04b7a965ce61ba4e6dea8da625482e80ef53"
+  ],
+  "videos": [],
+  "surfaceAttributes": [
+    "id=\"simulationCanvas\""
+  ],
+  "sharedMerge": "5c22da598774e04d2bc854850a8e72b3a7fdb66f"
+}
